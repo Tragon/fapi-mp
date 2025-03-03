@@ -1,12 +1,12 @@
 organization := "scala"
 
-name := "Playground"
+name := "FAPI"
 
 version := "1.0"
 
 scalaVersion := "2.13.1"
 
-javacOptions ++= Seq("-source", "1.8")
+//javacOptions ++= Seq("-source", "1.8")
 
 scalacOptions += "-feature"
 
@@ -15,7 +15,7 @@ javaOptions += "-Xmx2048m"
 javaOptions += "-XX:MaxPermSize=1024m"
 
 //javaHome := Some(file("C:/Program Files/Java/jdk1.8.0_161"))
-javaHome := Some(file("C:\\Users\\Tragon\\.jdks\\corretto-17.0.7"))
+//javaHome := Some(file("C:\\Users\\Tragon\\.jdks\\corretto-17.0.7"))
 
 // https://mvnrepository.com/artifact/org.scalatest/scalatest
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.1.1" % Test
